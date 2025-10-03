@@ -8,7 +8,7 @@ JavaScript Extractor & Enumerator v0.1
 ```
 
 <div align="center">
-<a href="https://python.org"><img src="https://img.shields.io/badge/python-3.6+-blue.svg" alt="Python Version"/></a>
+<a href="https://python.org"><img src="https://img.shields.io/badge/python-3.8+-blue.svg" alt="Python Version"/></a>
 <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License: MIT"/></a>
 <a href="https://github.com/mmuratardag/JSieve/issues"><img src="https://img.shields.io/github/issues/mmuratardag/JSieve" alt="GitHub Issues"/></a>
 <a href="https://github.com/mmuratardag/JSieve/stargazers"><img src="https://img.shields.io/github/stars/mmuratardag/JSieve" alt="GitHub Stars"/></a>
@@ -195,7 +195,7 @@ jsieve https://example.com --directories /path/to/custom_wordlist.txt
 
 ## 🔧 Requirements
 
-- Python 3.6+
+- Python 3.8+
 - requests
 - beautifulsoup4
 - colorama

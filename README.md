@@ -34,7 +34,15 @@ JSieve is a comprehensive web security tool designed for bug bounty hunters, pen
 
 ## 🛠️ Installation
 
-### From Source
+### Method 1: Recommended Installation (Modern)
+```bash
+git clone https://github.com/mmuratardag/JSieve.git
+cd JSieve
+pip install -e .
+```
+*This method automatically installs all dependencies and uses modern Python packaging standards.*
+
+### Method 2: Manual Installation  
 ```bash
 git clone https://github.com/mmuratardag/JSieve.git
 cd JSieve
@@ -42,9 +50,16 @@ pip install -r requirements.txt
 pip install -e .
 ```
 
-### From PyPI  (soon)
+### Method 3: From PyPI  (coming soon)
 ```bash
 pip install jsieve
+```
+
+### ✅ Verify Installation
+After installation, verify JSieve is working correctly:
+```bash
+jsieve --version
+jsieve --help
 ```
 
 ## 🚀 Quick Start
